@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -32,7 +32,16 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+} */
+
+.bdani::after {
+  @apply content-[''] bg-red-700 h-[3px] w-[0%] absolute left-0 -bottom-[10px] duration-300
+}
+
+.bdani:hover::after {
+  @apply w-full
 }
