@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className="h-[90vh] lg:flex justify-center items-center">
       <div className="lg:w-1/2 mx-auto px-5 lg:px-0 lg:mt-0 mt-10">
-        <p className="font-mono text-lg">
+        <p className="font-mono text-xl">
           Welcome to my <br />
           <span className="lg:text-6xl text-3xl lg:leading-[100px] lg:my-0 my-4 flex gap-5 text-[#8892B0]">
             Personal
@@ -21,9 +21,14 @@ const Hero = () => {
             />
           </span>
         </p>
-        <p className="font-mono lg:w-[500px] text-lg  text-justify">
-          Hey, I am a Web Developer.A Front End web developer from Bangladesh. I
-          design and code beautifully simple things, and I love what I do.{" "}
+        <p className="font-mono text-lg">
+          I am Razibul Islam.A Front End web developer from Bangladesh. Ready to
+          provide service as a Front-End stack web developer. According to my
+          interest, I have gained some knowledge and skill in these areas
+          React.js, Node.js,, Express.js, JavaScript, REST API, MongoDB, HTML5,
+          CSS3, Bootstrap, Tailwind CSS, Daisy UI. I design and code beautifully
+          simple things, and I love what I do. If you are interested, feel free
+          to contact!
         </p>
         <button className="font-semibold cursor-pointer hover:text-white text-lg tracking-wid text-[#8892B0] outline-1 outline rounded-sm px-3 py-2 hover:bg-gray-700 ease-in duration-300 mt-5">
           Download Resume

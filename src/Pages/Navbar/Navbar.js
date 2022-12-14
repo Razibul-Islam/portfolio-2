@@ -34,7 +34,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="bg-gray-900 sticky top-0 bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-10 z-50">
+    <div className="bg-gray-900 sticky top-0 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 z-50">
       <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-8">
         <div className="relative flex items-center justify-between z-50">
           <Link
